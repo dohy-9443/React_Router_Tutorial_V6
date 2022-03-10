@@ -1,12 +1,11 @@
-import Header from '../../components/common/Header';
-import MainContent from './components/MainContent';
+import React from 'react';
 
-
-export default function MainPage() {
-
+const MainPage = () => {
   return (
-    <>
-      <div>나는 메인</div>
-    </>
+    <div>
+      나는 메인임
+    </div>
   );
-}
+};
+
+export default MainPage;

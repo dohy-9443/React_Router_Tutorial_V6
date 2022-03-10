@@ -1,12 +1,11 @@
-import Header from '../../components/common/Header';
-import SubContent from './components/SubContent';
+import React from 'react';
 
-
-export default function SubPage() {
-
+const SubPage = () => {
   return (
-    <>
-      <div>나는 서브 페이지</div>
-    </>
+    <div>
+      나는 서브페이지임
+    </div>
   );
-}
+};
+
+export default SubPage;
