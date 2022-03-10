@@ -6,8 +6,7 @@ export default function MainPage() {
 
   return (
     <>
-      <Header/>
-      <MainContent/>
+      <div>나는 메인</div>
     </>
   );
 }

@@ -6,8 +6,7 @@ export default function SubPage() {
 
   return (
     <>
-      <Header/>
-      <SubContent/>
+      <div>나는 서브 페이지</div>
     </>
   );
 }
