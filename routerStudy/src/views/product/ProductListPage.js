@@ -1,9 +1,11 @@
+import React from 'react';
 
-
-export default function ProductListPage() {
-
+const ProductListPage = () => {
   return (
-    <>
-    </>
+    <div>
+      index의 1번
+    </div>
   );
-}
+};
+
+export default ProductListPage;
